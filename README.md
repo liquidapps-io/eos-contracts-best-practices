@@ -19,3 +19,6 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 * Atomically erasing an entire table (by replacing pointers)
 * Using asserts efficiently
 * Events
+
+
+# Reviewed by:
