@@ -10,7 +10,7 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 ## TODO:
 
 * Customized token contract example and best practices.
-* Transfer/Action intercepting contract
+* Transfer/Action intercepting contract - https://github.com/cc32d9/dappscatalog/blob/master/contracts/dappscatalog.cpp#L71
 * Permissions/Authorizations examples
 * Random numbers
 * Protecting from RAM theft
@@ -19,6 +19,8 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 * Atomically erasing an entire table (by replacing pointers)
 * Using asserts efficiently
 * Events
-
+* Ricardian contracts
+* Defered transaction
+* Context-free actions
 
 # Reviewed by:
