@@ -20,7 +20,9 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 * Using asserts efficiently
 * Events
 * Ricardian contracts
-* Defered transaction
+* Deferred transaction
 * Context-free actions
+* Transfer memo as parameter - https://github.com/eosdac/dacservice/blob/master/dacservice.cpp#L25
+* Always-false asserts
 
 # Reviewed by:
