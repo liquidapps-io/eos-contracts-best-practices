@@ -4,6 +4,8 @@ EOSIO contracts references, examples and best-practices
 ## Security best-practices
 https://github.com/slowmist/eos-smart-contract-security-best-practices/blob/master/README_EN.md
 
+https://github.com/NoneAge/EOS_dApp_Security_Incident_Analysis
+
 ## Performance best-practices:
 https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 
@@ -12,7 +14,7 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 * Customized token contract example and best practices.
 * Transfer/Action intercepting contract - https://github.com/cc32d9/dappscatalog/blob/master/contracts/dappscatalog.cpp#L71
 * Permissions/Authorizations examples
-* Random numbers
+* Random numbers - https://github.com/bada-studio/knights_contract/blob/master/knights/contract/player_control.hpp#L187 - ?
 * Protecting from RAM theft
 * Contract examples using the security best practices from above
 * Submarine Operations (commit/reveal)
