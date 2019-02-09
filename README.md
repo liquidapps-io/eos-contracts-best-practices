@@ -18,7 +18,7 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 * Submarine Operations (commit/reveal)
 * Atomically erasing an entire table (by replacing pointers)
 * Using asserts efficiently
-* Events
+* Events - https://github.com/bancorprotocol/contracts_eos/blob/master/contracts/eos/BancorConverter/BancorConverter.cpp#L98
 * Ricardian contracts
 * Deferred transaction
 * Context-free actions
