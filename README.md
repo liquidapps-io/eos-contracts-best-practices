@@ -20,7 +20,7 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 * Using asserts efficiently
 * Events - https://github.com/bancorprotocol/contracts_eos/blob/master/contracts/eos/BancorConverter/BancorConverter.cpp#L98
 * Ricardian contracts
-* Deferred transaction
+* Deferred transaction - https://github.com/eosdac/dacservice/blob/master/dacservice.cpp#L53
 * Context-free actions
 * Transfer memo as parameter - https://github.com/eosdac/dacservice/blob/master/dacservice.cpp#L25
 * Always-false asserts
