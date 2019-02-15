@@ -18,6 +18,7 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 * Events - https://github.com/bancorprotocol/contracts_eos/blob/master/contracts/eos/BancorConverter/BancorConverter.cpp#L98
 * Deferred transaction - https://github.com/eosdac/dacservice/blob/master/dacservice.cpp#L53
 * Transfer memo as parameter - https://github.com/eosdac/dacservice/blob/master/dacservice.cpp#L25
+* Migrate tables - https://github.com/nsjames/EOSIO-Migration-Tutorial/blob/master/migrate.cpp
 * Customized token contract example and best practices. - *TODO*
 * Permissions/Authorizations examples - *TODO*
 * Protecting from RAM theft - *TODO*
