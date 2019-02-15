@@ -13,7 +13,7 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 
 * Transfer/Action intercepting contract - https://github.com/cc32d9/dappscatalog/blob/master/contracts/dappscatalog.cpp#L71
 * Random numbers - https://github.com/bada-studio/knights_contract/blob/master/knights/contract/player_control.hpp#L187 - ?
-* Deleting table rows without types (primary index only) - https://gist.github.com/tbfleming/805cd85eb21970633c4a617c56d22159#file-main-cpp-L70 - same can be done for known secondary indexes using "db_##IDX##_lowerbound" and "db_##IDX##_remove"
+* Deleting table rows without types (primary index only) - https://gist.github.com/tbfleming/805cd85eb21970633c4a617c56d22159#file-main-cpp-L70 - same can be done for known secondary indexes using ```db_##IDX##_lowerbound``` and ```db_##IDX##_remove```
 * Events - https://github.com/bancorprotocol/contracts_eos/blob/master/contracts/eos/BancorConverter/BancorConverter.cpp#L98
 * Deferred transaction - https://github.com/eosdac/dacservice/blob/master/dacservice.cpp#L53
 * Transfer memo as parameter - https://github.com/eosdac/dacservice/blob/master/dacservice.cpp#L25
