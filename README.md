@@ -19,7 +19,7 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 * Contract examples using the security best practices from above
 * Submarine Operations (commit/reveal)
 * Atomically erasing an entire table (by replacing pointers)
-* Deleting table row without types (primary index only) - https://gist.github.com/tbfleming/805cd85eb21970633c4a617c56d22159#file-main-cpp-L70 - same can be done for known secondary indexes using "db_##IDX##_lowerbound" and "db_##IDX##_remove"
+* Deleting table rows without types (primary index only) - https://gist.github.com/tbfleming/805cd85eb21970633c4a617c56d22159#file-main-cpp-L70 - same can be done for known secondary indexes using "db_##IDX##_lowerbound" and "db_##IDX##_remove"
 * Using asserts efficiently
 * Events - https://github.com/bancorprotocol/contracts_eos/blob/master/contracts/eos/BancorConverter/BancorConverter.cpp#L98
 * Ricardian contracts
