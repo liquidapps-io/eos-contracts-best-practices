@@ -2,7 +2,7 @@
 EOSIO contracts references, examples and best-practices
 
 # Examples
-## Deleting table rows without types 
+## Deleting table rows without declaring tables
 ```cpp
   void clear_secondary_idx256(name index_name, uint64_t scope){
     uint64_t primary = 0;
