@@ -4,13 +4,15 @@ EOSIO contracts references, examples and best-practices
 # Examples
 ## Deleting table rows without declaring tables
 ```cpp
-  void clear_secondary_idx256(name index_name, uint64_t scope){
+  void clear_secondary_idx256(name TableName, uint8_t index_num, uint64_t scope){
     uint64_t primary = 0;
+
     auto key = eosio::key256();
     auto it2 = eosio::_multi_index_detail::secondary_index_db_functions<key256>::db_idx_lowerbound(
       _self.value, 
       scope, 
-      index_name.value, 
+      (static_cast<uint64_t>(TableName.value) & 0xFFFFFFFFFFFFFFF0ULL)
+                                    | (index_num & 0x000000000000000FULL), 
       key, 
       primary);
     while (it2 >= 0) {
@@ -33,7 +35,8 @@ EOSIO contracts references, examples and best-practices
   ACTION clearpkgs(){
     require_auth(_self);
     clear_primary("package"_n, _self.value);
-    clear_secondary_idx256("bypkg"_n, _self.value);
+    clear_secondary_idx256("package"_n, 0, _self.value);
+    clear_secondary_idx256("package"_n, 1, _self.value);
   }
 ```
 
