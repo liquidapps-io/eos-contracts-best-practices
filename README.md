@@ -68,6 +68,6 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 * Always-false asserts - *TODO*
 * Context-free actions - *TODO*
 * Ricardian contracts - *TODO*
-* Construct bounds and query secondary index from eosjs - *TODO*
+* Construct bounds and query secondary index from eosjs - *TODO*  - https://github.com/greymass/eos-voter/blob/c003a04a6bd8937c416e61ad005824fe83c9f517/app/shared/actions/governance/proposals.js#L94
 
 # Reviewed by:
