@@ -54,7 +54,6 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 * Transfer/Action intercepting contract - https://github.com/GetScatter/RIDL-Contracts/blob/master/scatterfunds/scatterfunds.cpp#L167 
 * Protecting against intecepting unstaked/refunded tokens by mistake - https://github.com/GetScatter/RIDL-Contracts/commit/1b9480983579de5b5d55837364bb374ef87e5c83
 * Random numbers - https://github.com/bada-studio/knights_contract/blob/master/knights/contract/player_control.hpp#L187 - ?
-* Deleting table rows without types (primary index only) - https://gist.github.com/tbfleming/805cd85eb21970633c4a617c56d22159#file-main-cpp-L70 - same can be done for known secondary indexes using ```db_##IDX##_lowerbound``` and ```db_##IDX##_remove```
 * Events - https://github.com/bancorprotocol/contracts_eos/blob/master/contracts/eos/BancorConverter/BancorConverter.cpp#L98
 * Deferred transaction - https://github.com/eosdac/dacservice/blob/master/dacservice.cpp#L53
 * Transfer memo as parameter - https://github.com/eosdac/dacservice/blob/master/dacservice.cpp#L25
@@ -69,6 +68,6 @@ https://medium.com/@bytemaster/developing-efficient-contracts-8a8e62011c6d
 * Always-false asserts - *TODO*
 * Context-free actions - *TODO*
 * Ricardian contracts - *TODO*
-
+* Construct bounds and query secondary index from eosjs - *TODO*
 
 # Reviewed by:
